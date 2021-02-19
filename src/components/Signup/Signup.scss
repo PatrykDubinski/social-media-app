@@ -1,0 +1,63 @@
+.signup {
+  max-width: 700px;
+  margin: 0 auto;
+  height: calc(100% - 5.8rem);
+
+  .signupTop {
+    padding: 1.5rem 0 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .registerForm {
+    padding: 1rem 0;
+
+    .registerBtn {
+      background-color: #41b35d;
+      margin: 2rem 0 0;
+      font-weight: 600;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .formRow {
+        flex: 1;
+
+        input {
+          border-radius: 8px;
+        }
+      }
+
+      .MuiFormControl-root {
+        width: 100%;
+        font-size: 2rem;
+
+        .MuiInputAdornment-root {
+          .MuiSvgIcon-root {
+            font-size: 2.5rem;
+          }
+        }
+
+        label {
+          font-size: 2rem;
+        }
+
+        .MuiInputBase-root {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .signupBottom {
+    margin-bottom: 2rem;
+
+    p {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.postsController {
+  width: 100%;
+  display: block;
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.8rem;
+
+  .modalBody {
+    min-height: 300px;
+
+    .ckePlaceholder {
+      color: #60627a;
+      font-size: 1.7rem;
+    }
+  }
+
+  .modalTop {
+    position: relative;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #f0f2f5;
+
+    p {
+      margin: 0;
+      padding: 0;
+      display: block;
+      position: absolute;
+      top: 0;
+      cursor: pointer;
+      right: 0;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #f0f2f5;
+
+    .logo {
+      display: block;
+      height: 50px;
+      width: 50px;
+      margin-right: 1rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .input {
+      background-color: #f0f2f5;
+      display: block;
+      width: 100%;
+      padding: 1.5rem 1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+      -webkit-transition: background-color 0.2s ease-in-out;
+      -moz-transition: background-color 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #e4e6e9;
+        transition: background-color 0.2s ease-in-out;
+        -webkit-transition: background-color 0.2s ease-in-out;
+        -moz-transition: background-color 0.2s ease-in-out;
+      }
+
+      .placeholder {
+        color: #60627a;
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .mediaWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+    .photo,
+    .emotions {
+      border-radius: 8px;
+      width: 30%;
+      text-align: center;
+      color: #60627a;
+      font-size: 1.7rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+      -webkit-transition: background-color 0.2s ease-in-out;
+      -moz-transition: background-color 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #e4e6e9;
+      }
+    }
+  }
+}

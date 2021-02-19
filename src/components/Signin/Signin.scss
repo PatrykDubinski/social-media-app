@@ -1,0 +1,38 @@
+.signin {
+  max-width: 700px;
+  margin: 0 auto;
+  height: calc(100% - 5.8rem);
+
+  .signinTop {
+    padding: 1.5rem 0 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .loginForm {
+    padding: 1rem 0;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .formRow {
+        flex: 1;
+
+        input {
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+
+  .signinBottom {
+    margin-bottom: 2rem;
+
+    p {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  }
+}
